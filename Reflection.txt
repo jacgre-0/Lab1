@@ -24,8 +24,8 @@ So far I already have knowledge of everything we have been doing.
 
 What was difficult in the lab? How did you overcome it?
 I didn't find anything particular difficult. One thing I was thinking about was if I was supposed to use
-functions or if everything were supposed to be written in the main function (since we are still in a very early state in this course)
-but since I did not explicitly say I could not use functions I decided to use it to make the code a bit cleaner.
+functions or if everything were supposed to be written in the main function (since we are still at a very early state in this course)
+but since it did not explicitly say I could not use functions I decided to use it to make the code a bit cleaner.
 
 How can the lab be improved?
 I think this was a good first lab. 

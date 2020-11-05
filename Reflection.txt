@@ -1,0 +1,31 @@
+In the Half pyramid task the examples using numbers and using alphabet characters uses two different formats.
+If the integer input was 3 the pyramid format would be:
+
+1
+12
+123
+
+and following the same format with the alphabet version a input of eg 'C' would give
+
+A
+AB
+ABC 
+
+but the actual format in the task example was
+
+A
+BB
+CCC
+
+Was this intended? The only difference is whether you print the outer or inner for loop parameter.
+
+What did you learn? What did you know already?
+So far I already have knowledge of everything we have been doing.
+
+What was difficult in the lab? How did you overcome it?
+I didn't find anything particular difficult. One thing I was thinking about was if I was supposed to use
+functions or if everything were supposed to be written in the main function (since we are still in a very early state in this course)
+but since I did not explicitly say I could not use functions I decided to use it to make the code a bit cleaner.
+
+How can the lab be improved?
+I think this was a good first lab. 

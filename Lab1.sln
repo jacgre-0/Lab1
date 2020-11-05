@@ -15,6 +15,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bounce", "Bounce\Bounce.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HalfPyramid", "HalfPyramid\HalfPyramid.vcxproj", "{40BE7B91-DDA7-40F7-B292-2E25C4D6FC7B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflection", "Reflection", "{73F54548-AEBC-46D5-AAFE-8405678D0E39}"
+	ProjectSection(SolutionItems) = preProject
+		Reflection.txt = Reflection.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

@@ -1,8 +1,8 @@
 #include <iostream>
 
-//Checks if a given number is a primenumber
+//Checks if a given number is a prime number
 bool IsPrime(unsigned int number);
-//Print all primes up to number
+//Print all n primes specified by the parameter
 void PrintPrimes(unsigned int number);
 
 int main() {
@@ -47,7 +47,7 @@ void PrintPrimes(unsigned int number) {
 
     //No even number (except 2) can be a prime so we just iterate over all the 
     //odd numbers
-    while (i+= 2, count < number) {
+    while (i += 2, count < number) {
         if (IsPrime(i)) {
             std::cout << i << std::endl;
             count++;

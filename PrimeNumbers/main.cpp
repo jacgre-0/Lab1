@@ -2,8 +2,14 @@
 
 //Checks if a given number is a primenumber
 bool IsPrime(unsigned int number);
+//Print all primes up to number
+void PrintPrimes(unsigned int number);
 
 int main() {
+    unsigned int n{};
+    std::cin >> n;
+
+    PrintPrimes(n);
     return 0;
 }
 
@@ -27,4 +33,24 @@ bool IsPrime(unsigned int number) {
             return false;
     }
     return true;
+}
+
+void PrintPrimes(unsigned int number) {
+    int count{};
+    int i{ 3 };
+    //The lowest prime is 2
+    if (number < 2)
+        return;
+
+    std::cout << '2' << std::endl;
+    count++;
+
+    //No even number (except 2) can be a prime so we just iterate over all the 
+    //odd numbers
+    while (i+= 2, count < number) {
+        if (IsPrime(i)) {
+            std::cout << i << std::endl;
+            count++;
+        }
+    }
 }

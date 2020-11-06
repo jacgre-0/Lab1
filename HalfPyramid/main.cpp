@@ -7,14 +7,14 @@ int main() {
     int number{};
     char character{};
 
-    std::cout << "Number input: ";
-    std::cin >> number;
+    printf("Character input (Uppercase): ");
+    scanf("%c", &character);
 
-    std::cout << "Character input (Uppercase): ";
-    std::cin >> character;
+    printf("Number input: ");
+    scanf("%d", &number);
 
     HalfPyramid(number);
-    std::cout << std::endl;
+    printf("\n");
     HalfPyramid(character);
     return 0;
 }
@@ -22,9 +22,9 @@ int main() {
 void HalfPyramid(int number) {
     for (int i = 1; i <= number; i++) {
         for (int j = 1; j <= i; j++) {
-            std::cout << j;
+            printf("%d", j);
         }
-        std::cout << std::endl;
+        printf("\n");
     }
 }
 
@@ -33,9 +33,9 @@ void HalfPyramid(char character) {
     if (character >= 'A' && character <= 'Z') {
         for (int i = 'A'; i <= character; i++) {
             for (int j = 'A'; j <= i; j++) {
-                std::cout << static_cast<char>(i);
+                printf("%c", static_cast<char>(i));
             }
-            std::cout << std::endl;
+            printf("\n");
         }
     }
 }

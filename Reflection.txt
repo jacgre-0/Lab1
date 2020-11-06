@@ -29,3 +29,5 @@ but since it did not explicitly say I could not use functions I decided to use i
 
 How can the lab be improved?
 I think this was a good first lab. 
+
+I spent around 1.5-2 hours on this lab.
